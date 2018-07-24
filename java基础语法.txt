@@ -1,0 +1,20 @@
+1.java和c++相比：java摒弃了多继承和指针的概念，java是静态面向对象编程的代表
+2.JDK：java开发包或java开发工具，包括java的运行环境、一些java工具和java的核心类库（java API）
+java类库中的java SE API子集和java虚拟机统称为JRE，JRE为标准环境
+# JDK为开发环境；JRE为运行环境
+3.vscode下配置java开发环境：jdk的安装和环境变量的添加
+exp：
+public class HelloWorld{
+	public static void main(String []args){
+		System.out.println("hello world!")
+	}
+}
+4.javac命令用来编译java文件，例如编写一个Test.java文件，使用javac Test.java可以执行编译操作，将生成一个Test.class文件;java命令可以执行生成的class文件，使用java Test可以执行编写的代码。
+5.注意点：1.java大小写敏感
+		  2.类名名称首字母必须大写（HelloMyWorld）
+		  3.方法名第一个首字母小写，后面大写（helloMyWorld）
+		  4.源文件名必须和类名一致
+		  5.主方法入口：public static void main(String []args)程序都由此往后执行
+6.标识符   首字母：字母、$、下划线
+		   往后的字母：字母、数字、下划线、$
+
