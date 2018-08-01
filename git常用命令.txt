@@ -1,0 +1,12 @@
+本地（git）提交代码到github具体步骤：
+1.git init
+2.git add 文件名（将文件或文件夹上传）
+3.git commit -m "注释语句" （将项目提交到本地仓库）
+4.git remote add origin 项目的github地址（将本地代码关联到github上）
+5.git pull origin master
+6.git push -u origin master(上传代码到远程git仓库)
+需要注意几个问题：
+1.ssh key的配置问题（可以使用git gui生成）
+2.提示出錯信息：fatal: remote origin already exists  先输入git remote rm origin，再输入git remote add 
+3.报错：error: failed to push some refs to 'git@github.com:laysyal/javabasics.git'
+解决办法：本地缺少readme文件，执行git pull --rebase origin master即可
