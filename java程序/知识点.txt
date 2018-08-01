@@ -1,0 +1,18 @@
+1.抽象类不能用来实例化对象，申明抽象类的唯一目的是为了将来对该类进行补充
+2.如果一个类包含抽象方法，那么该类一定要申明为抽象类，否则将出现编译错误
+3.抽象方法是一种没有任何实现的方法，该方法的具体实现由子类提供
+4.抽象方法的声明以分号结尾。例：public abstract sample();
+public abstract class SuperClass{
+	abstract void m();//抽象方法
+}
+class SubClass extends SuperClass{
+	void m(){
+		...//实现抽象方法
+	}
+}
+5.synchronized关键字声明的方法同一时间只能被一个线程访问
+6.条件运算符：b = (a==1)?20:30
+7.instanceof运算符：检查该对象是否是一个特定类型（类类型或接口类型）
+exp：String name = "James";
+boolean result = name instanceof String;
+8.continue:让程序立刻跳转到下一次循环的迭代
